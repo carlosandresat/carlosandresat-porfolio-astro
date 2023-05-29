@@ -1,6 +1,6 @@
 ---
 title: "Curso Desarrollo Web II"
-description: "Aprende los fundamentos esenciales de la programación, desde variables y estructuras de control hasta desarrollo de aplicaciones de consola, utilizando funciones, modularidad y manipulación de archivos."
+description: "Continúa tu camino en el desarrollo web con este curso que abarca bases de datos, servidores, HTTP, lenguajes de backend y frameworks como Node.js. Aprende a crear aplicaciones web completas y dinámicas."
 updatedDate: "Sep 11 2022"
 pricing: "$30"
 oldPricing: "$45"
