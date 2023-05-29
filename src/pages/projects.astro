@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Developer Projects</div>
+  </div>
+
+  <HorizontalCard
+      title="Astro Personal Site"
+      img="/post_img.webp"
+      desc="My personal professional website. Includes homepage, projects, services, blog and CV sections. Static site created with Astro, styled with Tailwind and DaisyUI, hosted and deployed with Netlify"
+      badge="NEW"
+    />
+  <div class="divider my-0"></div>
+  
+    <HorizontalCard
+    title="TutoYT"
+    img="/post_img.webp"
+    desc="A site for tutoring sessions scheduling between university students using many web technologies with MERN (MySQL - Express - React - NodeJS) stack. Using Formik and Yup for forms and input validations. JSON Web Tokens (JWT) for users authorization. Deployed with Railway."
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="ThunderShop"
+    img="/post_img.webp"
+    desc="A class project of an implementation of a product sales application with a connection to a PostgreSQL database hosted on Amazon Services cloud, using C# and Windows Forms."
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Researcher Projects</div>
+  </div>
+
+  <HorizontalCard
+    title="Thesis Project"
+    img="/post_img.webp"
+    desc="An aplication of Natural Language Processing (NLP) in the prediction of Acute Kidney Dissease (AKI). The Bidirectional Encoder Representations from Transformers (BERT) language model is used and some variants as Bio-BERT and AKI-BERT."
+    badge="TOP"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Hyper-tuning a transformer-based multi-modal fusion model for autonomous driving"
+    img="/post_img.webp"
+    desc="We use the CARLA driving simulator along with an open-source dataset to train and test a number of state-of-the-art end-to-end autonomous driving models, emphasizing on the transfuser model which uses transformers for fusing sensor modalities."
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Imagined Speech: Fast Fourier Transform vs Discrete Wavelet Transform"
+    img="/post_img.webp"
+    desc="A comparative analysis between the results of EEG signal processing of imagined speech using Fast Fourier Transform vs. Discrete Wavelet Transform for feature extraction."
+  />
+</BaseLayout>

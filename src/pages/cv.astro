@@ -1,0 +1,132 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Experienced Software Developer and AI Researcher passionate about leveraging technology to drive innovation. With a strong focus on software development and AI, I thrive on learning new technologies and applying them to personal and class projects. As a freelancer, I have successfully delivered projects for clients while honing my ability to understand requirements and meet deadlines. Additionally, I have a deep love for teaching and mentoring, having provided tutoring sessions in math and programming. Currently writing a thesis on NLP for clinical applications, I am excited to contribute my skills and collaborate with dynamic teams. Let's connect and make a meaningful impact in software development and AI research!
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Information Technologies Engineering (Senior student)"
+      subtitle="At Yachay Tech University, Urcuquí, Ecuador"
+    />
+    <TimeLineElement
+      title="Bachelor in Sciences"
+      subtitle="At Unidad Educativa Santa Teresita, Santa Rosa, Ecuador"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiences</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Trainer in Young Optics project"
+      subtitle="Escuela Superior Politécnica de Chimborazo and Capítulo Estudiantil Óptica - YT. (April - May 2022)"
+      desc=""
+    />
+    <TimeLineElement
+      title="Software Engineering & Computational Sciences Seminar"
+      subtitle="Club de Ciencias Computacionales de la Universidad Yachay Tech, Club de Software ESPE Latcunga, Capítulo Técnico Computer Society ESPE Latacunga & Capítulo Técnico Computer Society Yachay Tech. (March 2022)"
+      desc=""
+    />
+    <TimeLineElement
+      title="Speaker in Computer Vision Exhibition 2.0"
+      subtitle="IEEE Computer Society Yachay Tech University. (December 2021)"
+      desc=""
+    />
+    <TimeLineElement
+      title="Tutor in Hamilton Tech Project"
+      subtitle="Club de Ciencias Computacionales de la Universidad Yachay Tech. (November - December 2021)"
+      desc=""
+    />
+    <TimeLineElement
+      title="Practicing developer"
+      subtitle="TALOV. (October 2021 - Nov 2022)"
+      desc="As a practicing developer in a computer vision project, my role involved preprocessing a sign language dataset with data augmentation techniques and extracting keypoints from video frames. I developed and implemented an LSTM neural network for accurate sign language gesture recognition, training the model using the keypoints. Additionally, I collaborated with a development team to integrate the computer vision model into a Flutter mobile app. To ensure efficient mobile deployment, I utilized TFLite to create a lightweight version of the model. Throughout this internship, I sharpened my project management skills, utilized Google Cloud Platform (GCP), and gained practical experience in computer vision, Python programming, and machine learning model optimization."
+    />
+    <TimeLineElement
+      title="Speaker & Assistant in Fundamentals of Software Engineering Seminar"
+      subtitle="SDAS Research Group. (May - July 2021)"
+      desc=""
+    />
+    <TimeLineElement
+      title="Board of Directors"
+      subtitle="Club de Ciencias Computacionales de la Universidad Yachay Tech. (October 2020 - October 2021)"
+      desc=""
+    />
+    
+  </div>
+  <!--
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+  </ul>
+-->
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Languages</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Python</li>
+    <li>Javascript</li>
+    <li>C++</li>
+    <li>Dart</li>
+    <li>SQL</li>
+    <li>HTML/CSS</li>
+    <li>PHP</li>
+  </ul>
+
+  <div class="mb-5">
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Library/Frameworks</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>React</li>
+    <li>NodeJS</li>
+    <li>Express</li>
+    <li>Astro</li>
+    <li>TensorFlow</li>
+    <li>OpenCV</li>
+    <li>Matplotlib</li>
+    <li>jQuery</li>
+  </ul>
+  <div class="mb-5">
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Other tools</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Git/Github</li>
+    <li>Docker</li>
+    <li>Visual Studio Code</li>
+    <li>Google Cloud Platform</li>
+  </ul>
+
+
+</BaseLayout>
