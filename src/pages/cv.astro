@@ -1,11 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+import { SITE_THEME } from "../config"
 ---
 
 <BaseLayout title="Resume">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold" onclick="console.log(SITE_THEME)">Profile</div>
   </div>
 
   <div class="mb-10 text-justify">
