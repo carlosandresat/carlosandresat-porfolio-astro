@@ -1,6 +1,6 @@
 ---
 title: "Curso Desarrollo Web I"
-description: "Aprende los fundamentos esenciales de la programación, desde variables y estructuras de control hasta desarrollo de aplicaciones de consola, utilizando funciones, modularidad y manipulación de archivos."
+description: "Este curso te llevará desde los fundamentos de HTML y CSS hasta la programación avanzada en JavaScript. Aprende a construir sitios web modernos y dinámicos con enfoque en el diseño responsivo y la interacción con el usuario."
 updatedDate: "Sep 11 2022"
 pricing: "$30"
 oldPricing: "$45"
