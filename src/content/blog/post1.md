@@ -2,7 +2,7 @@
 title: "🌐 All You Need to Know About Creating a Website: A Beginner's Guide to Ignite Your Web Development Journey 🚀"
 description: "Unlock the secrets of web development with our beginner's guide to creating a captivating website. From design to SEO, master the essentials and ignite your online presence. "
 pubDate: "May 28 2023"
-heroImage: "/post_img.webp"
+heroImage: "/software-developer-6521720_640.jpg"
 ---
 
 Welcome to the fascinating world of website creation! In this comprehensive beginner's guide, we will demystify the process of building your own website, empowering you to embark on an exciting and transformative web development journey. Even if you have no prior IT knowledge, fear not! We will explore the essential aspects of website creation, from understanding front-end and back-end development to hosting, domains, design principles, SEO, and more. By the end of this guide, you will have the knowledge and motivation to bring your vision to life and create a stunning website that showcases your unique identity. So, let's dive in and unlock the boundless possibilities of web development! 💡

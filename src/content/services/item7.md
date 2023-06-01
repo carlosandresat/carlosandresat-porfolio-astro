@@ -5,7 +5,7 @@ updatedDate: "Sep 11 2022"
 pricing: "$40"
 oldPricing: "$60"
 checkoutUrl: ""
-heroImage: "/itemPreview.png"
+heroImage: "/server-5451985_640.jpg"
 ---
 
 Este curso incluye 8 sesiones de clases individuales via online, material para prácticas y la realización de un proyecto final con seguimiento continuo fuera de las clases.

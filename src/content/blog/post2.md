@@ -2,7 +2,7 @@
 title: "🌍 Unleashing the Power of NLP: A Beginner's Guide to the Language of Artificial Intelligence 🚀"
 description: "Unveil the transformative power of Natural Language Processing (NLP) and its impact on AI. Discover Chat-GPT, the game-changing Transformer model, and how NLP reshapes our world. 🌍💬🚀"
 pubDate: "May 27 2023"
-heroImage: "/post_img.webp"
+heroImage: "/writing-705667_1280.jpg"
 badge: "Thesis related"
 ---
 

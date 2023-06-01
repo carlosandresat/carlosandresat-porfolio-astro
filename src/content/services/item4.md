@@ -5,7 +5,7 @@ updatedDate: "Sep 11 2022"
 pricing: "$35"
 oldPricing: "$50"
 checkoutUrl: ""
-heroImage: "/itemPreview.png"
+heroImage: "/coding-924920_640.jpg"
 ---
 
 Este curso incluye 7 sesiones de clases individuales via online, material para prácticas y la realización de un proyecto final con seguimiento continuo fuera de las clases.
